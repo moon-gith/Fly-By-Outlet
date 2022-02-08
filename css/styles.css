@@ -8,10 +8,18 @@
 
 /* LOGIN PAGE */
 
-.login-body{
-    background-color: #333333;
+.login-reg-body{
+    background-color: #212121;
 }
 
+#login-left-div{
+    background-color: #161616;
+    text-align: center;
+}
+
+#login-right-div{
+    background-color: #333333;
+}
 .row{
     background-color: #212121;
     border-radius: 30px;
@@ -41,14 +49,12 @@
      height: 50%;
      width: auto;
      position: relative;
-     left: 198.5px;
-     top: 10%;
+     top: 18%;
  }
 
  .login-slogan{
      position: relative;
-     top:15%;
-     text-align: center;
+     top:20%;
  }
 
  .Form{
@@ -58,4 +64,24 @@
 
  .form-control{
      width: 30rem;
+ }
+
+ .btn1{
+     border-radius: 20px;
+     width: 6rem;
+     height: 3rem;
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+ }
+
+ .login-button{
+     text-align: center;
+ }
+
+ #login-section{
+     height: 100v;
+ }
+ .login-div{
+    margin-top: 10rem;
  }
