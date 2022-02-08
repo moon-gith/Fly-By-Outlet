@@ -79,9 +79,38 @@
      text-align: center;
  }
 
+ .btn1:hover{
+     background-color: #DCA926;
+     color: black;
+     border: 1px solid black;
+ }
+
  #login-section{
      height: 100v;
  }
  .login-div{
     margin-top: 10rem;
+ }
+
+ .hyperlink-color{
+     color: #DCA926;
+ }
+
+ .hyperlink-color:hover{
+     color: coral;
+ }
+
+ .welcome-text{
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .login-text-top{
+     font-size: 16px;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .login-box{
+     border-radius: 2rem;
  }
