@@ -46,15 +46,14 @@
  }
 
  .login-img{
-     height: 50%;
-     width: auto;
+    width: 40%;
      position: relative;
-     top: 18%;
+     top: 20%;
  }
 
  .login-slogan{
      position: relative;
-     top:20%;
+     top:23%;
  }
 
  .Form{
