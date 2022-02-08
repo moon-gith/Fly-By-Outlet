@@ -83,7 +83,15 @@
 
 button:focus
 {
-   outline:  none !important;
+   outline:  none;
+}
+.navbar-toggler
+{
+    background-color: black;
+}
+.collapsed
+{
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 /* Header */
 #header{
