@@ -85,3 +85,9 @@
  .login-div{
     margin-top: 10rem;
  }
+ .container
+ {
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+ }
