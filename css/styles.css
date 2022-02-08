@@ -99,7 +99,9 @@
  }
 
  .hyperlink-color:hover{
-     color: coral;
+     filter: drop-shadow(0px 0px 6px rgba(220,168,38,0.9));
+    color:#DCA926;
+    text-decoration: double;
  }
 
  .welcome-text{
