@@ -67,6 +67,11 @@
     color: black;
 }
 
+button:focus
+{
+   outline:  none !important;
+}
+
 /* MEDIA QUERIES */
 @media(min-width: 992px){
     .nav-item{
