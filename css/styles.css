@@ -113,3 +113,33 @@
  .login-box{
      border-radius: 2rem;
  }
+
+ /* REGISTRATION PAGE */
+
+ .reg-div{
+     background-color: #333333;
+     position: relative;
+ }
+
+ .reg-form{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .signup-div{
+     text-align: center;
+ }
+
+ #bottom-text{
+     text-align: center;
+ }
+.reg-welcome-text-div{
+    text-align: center;
+}
+ .reg-welcome-text{
+     margin-top: 2rem;
+     font-weight: bold;
+     font-size: 16px;
+     color: #DCA926;
+ }
