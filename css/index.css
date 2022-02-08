@@ -14,7 +14,6 @@
 .homepage-nameslogan{
     display: inline-block;
     position: relative;
-    top: 1.3rem;
     padding-left: 10px; 
 }
 
@@ -39,6 +38,21 @@
     position: relative;
 }
 
+.btn:not(.nav-btns button){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: #DCA926;
+    color: black;
+    border: 1px solid black;
+    filter: drop-shadow(0px 0px 6px rgba(220,168,38,0.9));
+}
+
 .nav-link{
     font-size: 14px;
 }
@@ -50,7 +64,7 @@
 }
 
 .navbar-brand img{
-    width: 40px;
+    width: 50px;
 }
 
 .navbar-brand span{
@@ -71,7 +85,14 @@ button:focus
 {
    outline:  none !important;
 }
-
+/* Header */
+#header{
+    background: url(../images/banner2.jpg) top/cover no-repeat;
+}
+/* End of Header */
+.page-container{
+    padding-top: 104px;
+}
 /* MEDIA QUERIES */
 @media(min-width: 992px){
     .nav-item{
