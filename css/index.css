@@ -50,7 +50,7 @@
 }
 
 .navbar-brand img{
-    width: 30px;
+    width: 40px;
 }
 
 .navbar-brand span{
@@ -63,6 +63,14 @@
 }
 
 .nav-item{
-    border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
     color: black;
+}
+
+/* MEDIA QUERIES */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+        
+    }
 }
