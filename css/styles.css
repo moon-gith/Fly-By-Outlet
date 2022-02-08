@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* LOGIN PAGE */
+
+.login-body{
+    background-color: #333333;
+}
+
+.row{
+    background-color: #212121;
+    border-radius: 30px;
+
+}
+
+.Welcome-Text-Login{
+    color: white;
+    margin-top: 2.0rem;
+}
+ .btn-login{
+    background-color: #DCA926;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    text-align: center;
+    position: relative;
+    left: 150%;
+ }
+
+ .form-row{
+     padding: 0.5rem;
+ }
+
+ .login-img{
+     height: 50%;
+     width: auto;
+     position: relative;
+     left: 198.5px;
+     top: 10%;
+ }
+
+ .login-slogan{
+     position: relative;
+     top:15%;
+     text-align: center;
+ }
+
+ .Form{
+     margin-top: 10%;
+     align-items: center;
+ }
+
+ .form-control{
+     width: 30rem;
+ }
