@@ -158,7 +158,3 @@
     left: 50%;
     transform: translate(-50%,0px);
  }
- button:focus
- {
-    outline:  1px dotted !important;
- }
